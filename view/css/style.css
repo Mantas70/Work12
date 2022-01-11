@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto;
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+table, th, td {
+    border: 1px solid #3199ff;
+}
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 500px) {
+    td, th{
+        padding: 2px;
+    }
+}
